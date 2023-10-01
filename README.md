@@ -12,9 +12,13 @@ I used panda’s library to load the dataset downloaded from Kaggle, I also impo
 DATA EXPLORATION AND ANALYSIS
 
 	I did some analysis of the data by getting the shape of the data, 
+
 	getting the columns names since there we so many to fit the entire width,
+
 	getting the unique items for various columns such as target variable among others, 
+
 	checking for empty values and duplicates in the dataset. The dataset had no duplicates and null values thus the data cleaning part was not necessary at this point.
+
 	getting the statistical summary of the data which helped me in making the decision of not scaling the data.
 
 
