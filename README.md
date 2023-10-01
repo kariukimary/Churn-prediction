@@ -5,10 +5,12 @@ imagine you're working with Sprint, one of the biggest telecom companies in the 
 
    
 LOADING THE DATASET AND IMPORTING NECESSARY LIBRARIES
+
 I used panda’s library to load the dataset downloaded from Kaggle, I also imported other required libraries to be used in creating the model.
 
 
 DATA EXPLORATION AND ANALYSIS
+
 	I did some analysis of the data by getting the shape of the data, 
 	getting the columns names since there we so many to fit the entire width,
 	getting the unique items for various columns such as target variable among others, 
@@ -17,12 +19,15 @@ DATA EXPLORATION AND ANALYSIS
 
 
 DATA VISUALIZATION 
+
 This involved graphical representation of the data so as to get patterns and insight from the data. I visualize various features such as age, tenure, monthly charges and also the target variable.
 
 
 DATA PREPROCESING
+
 This involved feature selection where I dropped the unnecessary columns also, I did some feature transformation where I encoded the categorical variables to numerical values.
 
 
 BUILDING THE MODEL AND EVALUATION
-I used RandomForestClassifier and logistic regression in building the model, in evaluation I used accuracy score and confusion matrix to evaluate the performance of the model
+
+I used RandomForestClassifierin building the model, in evaluation I used accuracy score and confusion matrix to evaluate the performance of the model
